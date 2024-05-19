@@ -1,0 +1,195 @@
+:root {
+    --Very-Dark-Magenta: hsl(300, 43%, 22%);
+    --Soft-Pink: hsl(333, 80%, 67%);
+    --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+    --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%);
+}
+
+body {
+    background-image: url(images/bg-pattern-top-mobile.svg), url(images/bg-pattern-bottom-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
+    font-family: "League Spartan", sans-serif;
+    text-align: center;
+}
+/*Formatação topo*/
+.margin {
+    margin-top: 60px;
+}
+
+.cabecalho h1 {
+    font-weight: 700;
+    color: var(--Very-Dark-Magenta);
+    margin: 0px 40px 0px 40px;
+    font-size: 2em;
+}
+
+.cabecalho p {
+    color: var(--Dark-Grayish-Magenta);
+    font-size: 16px;
+    margin: 20px 27px 30px 27px;
+}
+
+/*Formatação Section star*/
+
+.star {
+    margin-bottom: 40px;
+}
+
+.star article {
+    background-color: var(--Light-Grayish-Magenta);
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.imagem-star img {
+    margin-left: 5px;
+    padding-top: 15px;
+}
+
+.star article p {
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--Very-Dark-Magenta);
+    margin: 5px 0px;
+    padding-bottom: 10px;
+}
+
+/*Formatação Reviews*/
+
+.reviews {
+    margin-bottom: 100px;
+}
+
+.reviews article {
+    background-color: var(--Very-Dark-Magenta);
+    margin: 0px 20px 10px 20px;
+    border-radius: 10px;
+    padding: 20px 35px;
+    width: 335px;
+}
+
+.reviews-topo {
+    display: flex;
+    align-items: center;
+}
+
+.reviews-topo img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+p {
+    color: white;
+}
+
+.reviews-topo p {
+    font-weight: 700;
+    margin: 20px;
+}
+
+.verificado {
+    color: var(--Soft-Pink);
+    font-weight: 400;
+}
+
+.reviews p {
+    text-align: start;
+}
+
+@media (min-width: 968px) {
+
+body {
+    background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+    text-align: start;
+}
+
+    /*Formatação topo*/
+.margin {
+    margin-top: 110px;
+}
+
+.cabecalho h1 {
+    line-height: 50px;
+    font-size: 4em;
+}
+
+.cabecalho p {
+    font-size: 23px;
+}
+
+/*Formatação Section star*/
+
+.star {
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.star article {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.imagem-star {
+    margin-left: 20px;
+}
+
+.imagem-star img {
+    margin-left: 5px;
+    padding-top: 0;
+}
+
+.star article p {
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--Very-Dark-Magenta);
+    margin: 0px 30px;
+    padding-bottom: 0px;
+}
+
+.star .espaco-atc-1 {
+    margin-left: 70px;
+}
+.star .espaco-atc-2 {
+    margin-left: 140px;
+}
+
+/*espacamento*/
+.espacamento {
+    margin-bottom: 100px;
+}
+
+/*Formatação Reviews*/
+
+.reviews {
+    margin-bottom: 100px;
+}
+
+.reviews article {
+    background-color: var(--Very-Dark-Magenta);
+    margin: 0px 15px 0px 15px;
+    border-radius: 10px;
+    padding: 15px 30px;
+    width: 400px;
+}
+
+.reviews .reviews-1 {
+    margin-bottom: 60px;
+}
+
+.reviews .reviews-2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.reviews .reviews-3 {
+    margin-top: 60px;
+}
+
+}
+
+
